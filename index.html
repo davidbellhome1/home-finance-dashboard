@@ -3178,8 +3178,8 @@ function Dashboard() {
   const [selCat, setSelCat] = useState(null);
   const [trendMonth, setTrendMonth] = useState(null);
   const [showCap, setShowCap] = useState(false);
-  const [showForecastEditor, setShowForecastEditor] = useState(false);
-  const [cashInjections, setCashInjections] = useState({"2026-04": 957, "2026-05": 5476, "2026-06": 1288, "2026-08": 1576, "2026-09": 9288, "2026-10": 1288, "2026-11": 3788, "2026-12": 1288});
+  const [showForecastEditor, setShowForecastEditor] = useState(true);
+  const [cashInjections, setCashInjections] = useState({"2026-04": 4957, "2026-05": 5476, "2026-06": 1288, "2026-07": 5288, "2026-08": 2288, "2026-09": 9288, "2026-10": 1288, "2026-11": 3788, "2026-12": 1288});
   const updateInjection = (month, val) => {
     const parsed = val === "" ? 0 : parseFloat(val);
     setCashInjections(prev => ({

@@ -228,11 +228,11 @@ const MS = [{
   "income": 11320,
   "expenses": 20608,
   "hhSurplus": -9288,
-  "capNet": 2000,
+  "capNet": 2957.18,
   "forecast": true,
-  "opening": 12226,
-  "closing": 938,
-  "cashMove": -11288,
+  "opening": 8330.82,
+  "closing": 2000,
+  "cashMove": -6330.82,
   "lumpy": [{
     "cat": "School & Education Costs",
     "amount": 8000,
@@ -252,11 +252,11 @@ const MS = [{
   "income": 11320,
   "expenses": 16796,
   "hhSurplus": -5476,
-  "capNet": 0,
+  "capNet": 5476,
   "forecast": true,
-  "opening": 938,
-  "closing": -4538,
-  "cashMove": -5476,
+  "opening": 2000,
+  "closing": 2000,
+  "cashMove": 0,
   "lumpy": [{
     "cat": "Holidays",
     "amount": 4188,
@@ -268,11 +268,11 @@ const MS = [{
   "income": 11320,
   "expenses": 12608,
   "hhSurplus": -1288,
-  "capNet": 0,
+  "capNet": 1288,
   "forecast": true,
-  "opening": -4538,
-  "closing": -5826,
-  "cashMove": -1288,
+  "opening": 2000,
+  "closing": 2000,
+  "cashMove": 0,
   "lumpy": null
 }, {
   "month": "2026-07",
@@ -282,9 +282,9 @@ const MS = [{
   "hhSurplus": -2288,
   "capNet": 3000,
   "forecast": true,
-  "opening": -5826,
-  "closing": -11114,
-  "cashMove": -5288,
+  "opening": 2000,
+  "closing": 2712,
+  "cashMove": 712,
   "lumpy": [{
     "cat": "HMRC Tax",
     "amount": 3000,
@@ -300,11 +300,11 @@ const MS = [{
   "income": 11320,
   "expenses": 13608,
   "hhSurplus": -2288,
-  "capNet": 0,
+  "capNet": 1576,
   "forecast": true,
-  "opening": -11114,
-  "closing": -13402,
-  "cashMove": -2288,
+  "opening": 2712,
+  "closing": 2000,
+  "cashMove": -712,
   "lumpy": [{
     "cat": "Holidays",
     "amount": 1000,
@@ -316,11 +316,11 @@ const MS = [{
   "income": 11320,
   "expenses": 20608,
   "hhSurplus": -9288,
-  "capNet": 0,
+  "capNet": 9288,
   "forecast": true,
-  "opening": -13402,
-  "closing": -22690,
-  "cashMove": -9288,
+  "opening": 2000,
+  "closing": 2000,
+  "cashMove": 0,
   "lumpy": [{
     "cat": "School & Education Costs",
     "amount": 8000,
@@ -332,11 +332,11 @@ const MS = [{
   "income": 11320,
   "expenses": 12608,
   "hhSurplus": -1288,
-  "capNet": 0,
+  "capNet": 1288,
   "forecast": true,
-  "opening": -22690,
-  "closing": -23978,
-  "cashMove": -1288,
+  "opening": 2000,
+  "closing": 2000,
+  "cashMove": 0,
   "lumpy": null
 }, {
   "month": "2026-11",
@@ -344,11 +344,11 @@ const MS = [{
   "income": 11320,
   "expenses": 15108,
   "hhSurplus": -3788,
-  "capNet": 0,
+  "capNet": 3788,
   "forecast": true,
-  "opening": -23978,
-  "closing": -27766,
-  "cashMove": -3788,
+  "opening": 2000,
+  "closing": 2000,
+  "cashMove": 0,
   "lumpy": [{
     "cat": "Holidays",
     "amount": 2500,
@@ -360,11 +360,11 @@ const MS = [{
   "income": 11320,
   "expenses": 12608,
   "hhSurplus": -1288,
-  "capNet": 0,
+  "capNet": 1288,
   "forecast": true,
-  "opening": -27766,
-  "closing": -29054,
-  "cashMove": -1288,
+  "opening": 2000,
+  "closing": 2000,
+  "cashMove": 0,
   "lumpy": null
 }];
 const CM = {
@@ -554,7 +554,8 @@ const CM = {
     "Council Tax": 348,
     "Maintenance": 1224,
     "Food and general supplies": 1109,
-    "General Purchases": 4843.0,
+    "General Purchases": 334.13,
+    "Hobby": 4508.87,
     "Light, Power, Heating and water": 360,
     "Rent and mortgage payments": 5482,
     "Insurance costs": 1274,
@@ -577,7 +578,8 @@ const CM = {
     "Holidays": 3834,
     "Council Tax": 348,
     "Food and general supplies": 1081,
-    "General Purchases": 1212,
+    "General Purchases": 862.63,
+    "Hobby": 349.37,
     "Light, Power, Heating and water": 360,
     "Rent and mortgage payments": 5200,
     "Insurance costs": 1130,
@@ -2528,7 +2530,8 @@ const DR = {
     "Motor Vehicle Expenses": [["09-30", "HOLIDAY EXTRAS HOLIDAY  UNITED", 6.75, "A", 0], ["09-30", "HOLIDAY EXTRAS HOLIDAY  UNITED", 88.25, "A", 0], ["09-28", "GORDON FILLING STATION  WOKING", 6.0, "A", 0], ["09-28", "GORDON FILLING STATION  WOKING", 85.56, "A", 0], ["09-21", "GORDON FILLING STATION  WOKING", 11.0, "A", 0], ["09-02", "GORDON FILLING STATION  WOKING", 14.75, "A", 0], ["09-01", "DVLA-KU61ASO", 23.18, "N", 0], ["09-02", "BP GORDON FILLING STATION WOKI", 10.23, "N", 0], ["09-04", "BP GORDON FILLING STATION WOKI", 46.79, "N", 0], ["09-15", "BP GORDON FILLING STATION WOKI", 2.5, "N", 0], ["09-30", "LRS AUTO SERVICES", 175.32, "N", 0]],
     "Going out/Entertaining": [["09-30", "LIGHTWATER SERVICE STAT LIGHTW", 31.45, "A", 0], ["09-27", "CO-OP - LIGHTWATER      LIGHTW", 23.1, "A", 0], ["09-27", "STARBUCKS               LONDON", 4.6, "A", 1], ["09-26", "WAGAMAMA                LONDON", 52.47, "A", 0], ["09-23", "SP VEEFRIENDS           NEW YO", 127.0, "A", 0], ["09-20", "PAYPAL *SODACLUB        084560", 40.0, "A", 0], ["09-11", "SP VEEFRIENDS           NEW YO", 42.0, "A", 0], ["09-09", "PAYPAL *TRYBOOKING      033334", 129.75, "A", 0], ["09-07", "LIGHTWATER SERVICE STAT LIGHTW", 9.0, "A", 0], ["09-07", "LIGHTWATER SERVICE STAT LIGHTW", 108.47, "A", 0], ["09-06", "CO-OP - LIGHTWATER      LIGHTW", 12.1, "A", 0], ["09-02", "DOJO*HEATHER FARM CAFE  WOKING", 86.9, "A", 0], ["09-01", "COOK Sittingbourne GB APPLEPAY", 44.9, "N", 0], ["09-03", "HEATHER FARM CAFE Woking GB AP", 17.9, "N", 0], ["09-04", "BURGER KING THORPE PARK 1 GB A", 3.19, "N", 0], ["09-04", "KFC - THORPE PARK STAINES GB A", 6.98, "N", 0], ["09-05", "MARKS&SPENCER PLC SACA WOKING ", 2.0, "N", 0], ["09-05", "RED GREEN WOKING GB APPLEPAY 3", 2.2, "N", 1], ["09-05", "NEXT RETAIL LTD WOKING GB APPL", 3.75, "N", 0], ["09-05", "NEXT RETAIL LTD WOKING GB APPL", 19.2, "N", 0], ["09-06", "Cafe In The Park Virginia Wate", 9.6, "N", 1], ["09-06", "Fieldhouse coffee Lightwater G", 10.45, "N", 1], ["09-06", "Cafe In The Park Virginia Wate", 29.6, "N", 1], ["09-08", "WINDSOR GREAT PARK WINDSOR GB ", 9.6, "N", 0], ["09-09", "TESCO STORES 2047 ASHFORD MIDD", 5.35, "N", 0], ["09-10", "TESCO STORES 2047 ASHFORD MIDD", 4.9, "N", 0], ["09-12", "NYX*BP Woking GB APPLEPAY 7919", 1.5, "N", 0], ["09-12", "NYX*BP Lightwater GB APPLEPAY ", 1.5, "N", 0], ["09-13", "BP LIGHTWATER SERVICE STA LIGH", 40.97, "N", 0], ["09-16", "SumUp *Brownies.by.ab Woking G", 3.7, "N", 0], ["09-16", "TESCO STORES 2047 ASHFORD MIDD", 4.25, "N", 0], ["09-18", "RANDALLS COFFEE LIGHTWATER GB ", 2.7, "N", 1], ["09-19", "BP LIGHTWATER SERVICE STA LIGH", 7.95, "N", 0], ["09-20", "PAYPAL *TRYBOOKING 03333443477", 37.3, "N", 0], ["09-22", "HEATHER FARM CAFE Woking GB AP", 3.95, "N", 0], ["09-22", "Fieldhouse coffee Lightwater G", 8.5, "N", 1], ["09-22", "BARONS PUB COMPANY LTD WOKING ", 31.08, "N", 0], ["09-22", "TOBY CARVERY - FRIMLEY FRIMLEY", 53.42, "N", 0], ["09-23", "TESCO STORES 2047 ASHFORD MIDD", 5.8, "N", 0], ["09-23", "JEMMA BARKER", 18.0, "N", 0], ["09-24", "Fieldhouse coffee Lightwater G", 5.9, "N", 1], ["09-25", "BP LIGHTWATER SERVICE STA LIGH", 40.84, "N", 0], ["09-25", "COSTA COFFEE 43011260 WOKING G", 2.8, "N", 1], ["09-25", "OYSTERS FISH CHIPS LIGHTWATER ", 3.6, "N", 0], ["09-27", "THE ATRIUM CAMBERLEY GB APPLEP", 2.5, "N", 1], ["09-27", "THE INN AT WEST END Woking GB ", 7.9, "N", 1], ["09-29", "RED GREEN WOKING GB APPLEPAY 3", 7.5, "N", 1], ["09-29", "Fieldhouse coffee Lightwater G", 8.5, "N", 1], ["09-29", "MOKKA DINING Woking GB", 14.63, "N", 0], ["09-29", "COOK Sittingbourne GB APPLEPAY", 25.75, "N", 0], ["09-29", "ZETTLE_*TOM HALL FITNE BAGSHOT", 6.0, "N", 0], ["09-30", "TESCO STORES 2047 ASHFORD MIDD", 0.78, "N", 0]],
     "Holidays": [["09-30", "Virgin Atlantic Airways Crawle", 80.0, "A", 0], ["09-30", "Virgin Atlantic Airways Crawle", 3753.92, "A", 0]],
-    "General Purchases": [["09-29", "AMZNMKTPLACE*XF38V2SJ5  AMAZON", 21.29, "A", 0], ["09-24", "PAYPAL *ROYAL MAIL ROYA 034577", 337.06, "A", 0], ["09-23", "AMZNMKTPLACE*WU3074DE5  AMAZON", 11.98, "A", 0], ["09-21", "CHECKMYFILE             TRURO", 14.99, "A", 0], ["09-21", "PAYPAL *ROYAL MAIL ROYA 034577", 71.7, "A", 0], ["09-13", "PROPERTYDATA            OXFORD", 16.8, "A", 1], ["09-11", "AMZNMKTPLACE*998GL0FS5  AMAZON", 24.09, "A", 0], ["09-10", "AMAZON.CO.UK*Z881C9AZ4  AMAZON", 4.89, "A", 0], ["09-10", "AMZNMKTPLACE*Z80OY8A04  AMAZON", 16.79, "A", 0], ["09-10", "AMZNMKTPLACE*Z891J9EJ4  AMAZON", 25.11, "A", 0], ["09-06", "WHATNOT                 MARINA", 40.44, "A", 0], ["09-04", "WHATNOT                 MARINA", 154.45, "A", 0], ["09-04", "WHATNOT                 MARINA", 154.48, "A", 0], ["09-03", "GSHIPUS.COM             SAN FR", 19.3, "A", 0], ["09-03", "PAYPAL *ROYAL MAIL      034577", 43.15, "A", 0], ["09-01", "KEN PANG", 15.0, "N", 0], ["09-01", "PAYPAL PAYMENT", 19.99, "N", 0], ["09-01", "P Haigh", -76.0, "N", 0], ["09-02", "SUMUP *TONY BARBER STYLE WEYBR", 28.0, "N", 0], ["09-02", "AMZNMktplace*RK78V3XN4 amazon.", 75.4, "N", 0], ["09-05", "NEXT WWW2.NEXT.CO. GB 3881", -51.0, "N", 0], ["09-05", "AMZNMktplace*ZT5J68Z74 amazon.", 15.77, "N", 0], ["09-08", "AMZNMktplace*ZT9EL8DL4 amazon.", 53.96, "N", 0], ["09-11", "AMZNMktplace*Z82ZE2AU4 amazon.", 23.47, "N", 0], ["09-12", "AMZNMktplace amazon.co.uk GB", -19.48, "N", 0], ["09-12", "AMZNMktplace*9U6LD43B5 amazon.", 6.99, "N", 0], ["09-12", "AMZNMktplace*8K5RO7605 amazon.", 78.99, "N", 0], ["09-16", "AMZNMktplace*5G2SR9GJ5 amazon.", 33.99, "N", 0], ["09-18", "AMZNMktplace*5R4FZ2835 amazon.", 8.35, "N", 0], ["09-19", "KEN PANG", 5.0, "N", 0], ["09-20", "Amazon.co.uk*QE3S36215 AMAZON.", 26.48, "N", 0], ["09-29", "Amazon.co.uk*B02HZ2915 AMAZON.", 11.0, "N", 0]],
+    "General Purchases": [["09-29", "AMZNMKTPLACE*XF38V2SJ5  AMAZON", 21.29, "A", 0], ["09-24", "PAYPAL *ROYAL MAIL ROYA 034577", 337.06, "A", 0], ["09-23", "AMZNMKTPLACE*WU3074DE5  AMAZON", 11.98, "A", 0], ["09-21", "CHECKMYFILE             TRURO", 14.99, "A", 0], ["09-21", "PAYPAL *ROYAL MAIL ROYA 034577", 71.7, "A", 0], ["09-13", "PROPERTYDATA            OXFORD", 16.8, "A", 1], ["09-11", "AMZNMKTPLACE*998GL0FS5  AMAZON", 24.09, "A", 0], ["09-10", "AMAZON.CO.UK*Z881C9AZ4  AMAZON", 4.89, "A", 0], ["09-10", "AMZNMKTPLACE*Z80OY8A04  AMAZON", 16.79, "A", 0], ["09-10", "AMZNMKTPLACE*Z891J9EJ4  AMAZON", 25.11, "A", 0], ["09-03", "GSHIPUS.COM             SAN FR", 19.3, "A", 0], ["09-03", "PAYPAL *ROYAL MAIL      034577", 43.15, "A", 0], ["09-01", "KEN PANG", 15.0, "N", 0], ["09-01", "PAYPAL PAYMENT", 19.99, "N", 0], ["09-01", "P Haigh", -76.0, "N", 0], ["09-02", "SUMUP *TONY BARBER STYLE WEYBR", 28.0, "N", 0], ["09-02", "AMZNMktplace*RK78V3XN4 amazon.", 75.4, "N", 0], ["09-05", "NEXT WWW2.NEXT.CO. GB 3881", -51.0, "N", 0], ["09-05", "AMZNMktplace*ZT5J68Z74 amazon.", 15.77, "N", 0], ["09-08", "AMZNMktplace*ZT9EL8DL4 amazon.", 53.96, "N", 0], ["09-11", "AMZNMktplace*Z82ZE2AU4 amazon.", 23.47, "N", 0], ["09-12", "AMZNMktplace amazon.co.uk GB", -19.48, "N", 0], ["09-12", "AMZNMktplace*9U6LD43B5 amazon.", 6.99, "N", 0], ["09-12", "AMZNMktplace*8K5RO7605 amazon.", 78.99, "N", 0], ["09-16", "AMZNMktplace*5G2SR9GJ5 amazon.", 33.99, "N", 0], ["09-18", "AMZNMktplace*5R4FZ2835 amazon.", 8.35, "N", 0], ["09-19", "KEN PANG", 5.0, "N", 0], ["09-20", "Amazon.co.uk*QE3S36215 AMAZON.", 26.48, "N", 0], ["09-29", "Amazon.co.uk*B02HZ2915 AMAZON.", 11.0, "N", 0]],
+    "Hobby": [["09-06", "WHATNOT                 MARINA", 40.44, "A", 0], ["09-04", "WHATNOT                 MARINA", 154.45, "A", 0], ["09-04", "WHATNOT                 MARINA", 154.48, "A", 0]],
     "Tech supplies and subscriptions": [["09-28", "APPLE.COM/BILL          HOLLYH", 6.99, "A", 0], ["09-26", "APPLE.COM/BILL          HOLLYH", 9.99, "A", 0], ["09-20", "APPLE.COM/BILL          HOLLYH", 17.99, "A", 0], ["09-13", "APPLE.COM/BILL          HOLLYH", 2.99, "A", 0], ["09-08", "GOOGLE *GOOGLE ONE      G.CO/H", 79.99, "A", 1], ["09-07", "STARLINK INTERNET       LUTON", 76.0, "A", 0], ["09-07", "STARLINK INTERNET       LUTON", 270.0, "A", 0], ["09-06", "APPLE.COM/BILL          HOLLYH", 25.99, "A", 0], ["09-03", "PAYPAL *NETFLIX         402935", 18.99, "A", 0], ["09-01", "E.F.S. LTD.", 97.79, "N", 0], ["09-22", "Google One London GB", 1.59, "N", 1]],
     "Memberships and Subscriptions": [["09-28", "PAYPAL *WIKIPEDIA       415839", 2.0, "A", 0], ["09-26", "POSITIVE NEWS           MANCHE", 5.0, "A", 1], ["09-01", "CHARTERED SOCIETY", 37.99, "N", 0], ["09-08", "LIFESTYLE FITNESS", 44.0, "N", 0]],
     "Food and general supplies": [["09-24", "ALDI SANDHURST 775-15   SANDHU", 128.0, "A", 0], ["09-24", "TESCO STORE 3149 3149TE SANDHU", 51.47, "A", 0], ["09-17", "ALDI SANDHURST 775-15   SANDHU", 116.06, "A", 0], ["09-17", "TESCO STORE 3149 3149TE SANDHU", 42.4, "A", 0], ["09-11", "SAINSBURYS ONLINE       LONDON", -2.25, "A", 0], ["09-11", "SAINSBURYS ONLINE       LONDON", 134.18, "A", 0], ["09-03", "SAINSBURYS ONLINE       LONDON", 260.06, "A", 0], ["09-02", "WOKING - MORRISONS SITE WOKING", 47.72, "A", 0], ["09-01", "CO-OP GROUP FOOD LIGHTWATER GB", 16.85, "N", 0], ["09-05", "WAITROSE 181 GOLDSWORTH PA GB ", 50.91, "N", 0], ["09-13", "TESCO STORES 2160 BROOKLANDS G", 218.5, "N", 0], ["09-20", "CO-OP GROUP FOOD LIGHTWATER GB", 0.75, "N", 0], ["09-23", "SUMUP *BROWNIES.BY.ABBY WOKING", 3.7, "N", 0], ["09-25", "WAITROSE 181 GOLDSWORTH PA GB ", 5.5, "N", 0], ["09-26", "SUMUP *BROWNIES.BY.ABBY WOKING", 3.7, "N", 0], ["09-30", "SUMUP *BROWNIES.BY.ABBY WOKING", 3.7, "N", 0]],
@@ -2548,7 +2551,8 @@ const DR = {
     "Salary - Cudo Ventures": [["09-29", "CUDO VENTURES LTD", -9867.78, "N", 0]]
   },
   "2025-08": {
-    "General Purchases": [["08-31", "FTS INCOME              LONDON", 1.0, "A", 0], ["08-31", "WHATNOT                 PENROS", 6.69, "A", 0], ["08-31", "WHATNOT                 PENROS", 7.0, "A", 0], ["08-31", "WHATNOT                 PENROS", 36.0, "A", 0], ["08-31", "WHATNOT                 PENROS", 50.0, "A", 0], ["08-30", "WHATNOT                 MARINA", -17.14, "A", 0], ["08-30", "WHATNOT                 PENROS", 12.0, "A", 0], ["08-30", "WHATNOT                 PENROS", 14.7, "A", 0], ["08-30", "WHATNOT                 PENROS", 44.0, "A", 0], ["08-30", "WHATNOT                 PENROS", 143.39, "A", 0], ["08-30", "WHATNOT                 PENROS", 540.0, "A", 0], ["08-30", "WHATNOT                 PENROS", 655.0, "A", 0], ["08-29", "AMZNMKTPLACE*R47H65R34  AMAZON", 22.99, "A", 0], ["08-29", "FRESHA                  LONDON", 65.0, "A", 0], ["08-29", "PAYPAL *ROYAL MAIL      034577", 192.38, "A", 0], ["08-28", "WHATNOT                 MARINA", 103.1, "A", 0], ["08-28", "WHATNOT                 MARINA", 175.01, "A", 0], ["08-25", "AMZNMKTPLACE*R44P16TH4  AMAZON", 25.48, "A", 0], ["08-22", "WHATNOT                 MARINA", 275.08, "A", 0], ["08-21", "CHECKMYFILE             TRURO", 14.99, "A", 0], ["08-18", "PAYPAL *VECTIS          019837", 121.75, "A", 0], ["08-16", "AMZNMKTPLACE*RU5GS7584  AMAZON", 29.53, "A", 0], ["08-16", "WHATNOT                 MARINA", 266.9, "A", 0], ["08-16", "WHATNOT                 MARINA", 558.98, "A", 0], ["08-15", "NEXT NEXTDIRECTORY      UNITED", 46.95, "A", 0], ["08-13", "AMZNMKTPLACE*RM89A7AJ4  AMAZON", 8.49, "A", 0], ["08-13", "PROPERTYDATA            OXFORD", 16.8, "A", 1], ["08-12", "AMAZON.CO.UK*RM0RT24H4  AMAZON", 14.14, "A", 0], ["08-12", "PAYPAL *EB              041535", 127.5, "A", 0], ["08-11", "AMAZON.CO.UK*RM7UX4454  AMAZON", 49.98, "A", 0], ["08-11", "CLARKS                  STREET", 54.0, "A", 0], ["08-11", "CLARKS                  STREET", 54.0, "A", 0], ["08-10", "WHATNOT                 MARINA", 172.7, "A", 0], ["08-09", "WHATNOT                 MARINA", 241.83, "A", 0], ["08-09", "WHATNOT                 MARINA", 278.64, "A", 0], ["08-09", "WHATNOT                 MARINA", 315.46, "A", 0], ["08-09", "WHATNOT                 MARINA", 629.53, "A", 0], ["08-07", "AMAZON.CO.UK*RF2L95AE4  AMAZON", 9.88, "A", 0], ["08-02", "AMZNMKTPLACE*RV2AZ9E24  AMAZON", 30.98, "A", 0], ["08-01", "NEXT NEXTDIRECTORY      UNITED", -55.0, "A", 0], ["08-01", "NEXT NEXTDIRECTORY      UNITED", -38.0, "A", 0], ["08-01", "NEXT NEXTDIRECTORY      UNITED", -38.0, "A", 0], ["08-01", "NEXT NEXTDIRECTORY      UNITED", -22.0, "A", 0], ["08-02", "POST OFFICE COUNTER LIGHTWATER", 4.05, "N", 0], ["08-04", "EBAY Commerce UK Ltd", -680.0, "N", 0], ["08-04", "NOT ANOTHER BUNCH SCAYNES HILL", 59.84, "N", 0], ["08-05", "AMZNMktplace*RV6SA4614 amazon.", 11.98, "N", 0], ["08-05", "AMZNMktplace*RV6CT4674 amazon.", 34.99, "N", 0], ["08-06", "AMZNMktplace*RV9TU2U64 amazon.", 9.99, "N", 0], ["08-06", "AMZNMktplace*RV8V77UN4 amazon.", 20.48, "N", 0], ["08-12", "CLR*WWW.TYLERS-SPORTS WELWYN G", -79.0, "N", 0], ["08-15", "WWW.SPEEDO.COM NORTHWICH GB", -32.0, "N", 0], ["08-18", "AMZNMktplace*RM5620224 amazon.", 11.99, "N", 0], ["08-19", "ST HELENS POST OFFICE RYDE GB ", 2.98, "N", 0], ["08-19", "ST FAITH PORTSMOUTH GB", 6.0, "N", 0], ["08-21", "ST HELENS POST OFFICE RYDE GB ", 4.48, "N", 0], ["08-21", "JURASSIC JIM SHANKLIN, GB APPL", 10.0, "N", 0], ["08-21", "VENTNOR BEACH SHOP Ventnor GB ", 15.2, "N", 0], ["08-21", "JURASSIC JIM SHANKLIN, GB APPL", 33.0, "N", 0], ["08-22", "Sand Shop Alum Bay GB APPLEPAY", 12.0, "N", 0], ["08-22", "Sand Shop Alum Bay GB APPLEPAY", 20.0, "N", 0], ["08-25", "CLR*WWW.THEBUSHCRAFTS ENFIELD ", 18.85, "N", 0], ["08-28", "AMZNMktplace*R41BC06Y4 amazon.", 6.99, "N", 0], ["08-28", "AMZNMktplace*R45471QC4 amazon.", 17.59, "N", 0], ["08-29", "AMZNMktplace*R47A72UJ4 amazon.", 16.88, "N", 0], ["08-29", "AMZNMktplace*R49AV6U84 amazon.", 47.76, "N", 0], ["08-30", "AMZNMktplace amazon.co.uk GB", -17.59, "N", 0], ["08-04", "TINA HADDAD", 45.0, "N", 0]],
+    "General Purchases": [["08-31", "FTS INCOME              LONDON", 1.0, "A", 0], ["08-29", "AMZNMKTPLACE*R47H65R34  AMAZON", 22.99, "A", 0], ["08-29", "FRESHA                  LONDON", 65.0, "A", 0], ["08-29", "PAYPAL *ROYAL MAIL      034577", 192.38, "A", 0], ["08-25", "AMZNMKTPLACE*R44P16TH4  AMAZON", 25.48, "A", 0], ["08-21", "CHECKMYFILE             TRURO", 14.99, "A", 0], ["08-18", "PAYPAL *VECTIS          019837", 121.75, "A", 0], ["08-16", "AMZNMKTPLACE*RU5GS7584  AMAZON", 29.53, "A", 0], ["08-15", "NEXT NEXTDIRECTORY      UNITED", 46.95, "A", 0], ["08-13", "AMZNMKTPLACE*RM89A7AJ4  AMAZON", 8.49, "A", 0], ["08-13", "PROPERTYDATA            OXFORD", 16.8, "A", 1], ["08-12", "AMAZON.CO.UK*RM0RT24H4  AMAZON", 14.14, "A", 0], ["08-12", "PAYPAL *EB              041535", 127.5, "A", 0], ["08-11", "AMAZON.CO.UK*RM7UX4454  AMAZON", 49.98, "A", 0], ["08-11", "CLARKS                  STREET", 54.0, "A", 0], ["08-11", "CLARKS                  STREET", 54.0, "A", 0], ["08-07", "AMAZON.CO.UK*RF2L95AE4  AMAZON", 9.88, "A", 0], ["08-02", "AMZNMKTPLACE*RV2AZ9E24  AMAZON", 30.98, "A", 0], ["08-01", "NEXT NEXTDIRECTORY      UNITED", -55.0, "A", 0], ["08-01", "NEXT NEXTDIRECTORY      UNITED", -38.0, "A", 0], ["08-01", "NEXT NEXTDIRECTORY      UNITED", -38.0, "A", 0], ["08-01", "NEXT NEXTDIRECTORY      UNITED", -22.0, "A", 0], ["08-02", "POST OFFICE COUNTER LIGHTWATER", 4.05, "N", 0], ["08-04", "EBAY Commerce UK Ltd", -680.0, "N", 0], ["08-04", "NOT ANOTHER BUNCH SCAYNES HILL", 59.84, "N", 0], ["08-05", "AMZNMktplace*RV6SA4614 amazon.", 11.98, "N", 0], ["08-05", "AMZNMktplace*RV6CT4674 amazon.", 34.99, "N", 0], ["08-06", "AMZNMktplace*RV9TU2U64 amazon.", 9.99, "N", 0], ["08-06", "AMZNMktplace*RV8V77UN4 amazon.", 20.48, "N", 0], ["08-12", "CLR*WWW.TYLERS-SPORTS WELWYN G", -79.0, "N", 0], ["08-15", "WWW.SPEEDO.COM NORTHWICH GB", -32.0, "N", 0], ["08-18", "AMZNMktplace*RM5620224 amazon.", 11.99, "N", 0], ["08-19", "ST HELENS POST OFFICE RYDE GB ", 2.98, "N", 0], ["08-19", "ST FAITH PORTSMOUTH GB", 6.0, "N", 0], ["08-21", "ST HELENS POST OFFICE RYDE GB ", 4.48, "N", 0], ["08-21", "JURASSIC JIM SHANKLIN, GB APPL", 10.0, "N", 0], ["08-21", "VENTNOR BEACH SHOP Ventnor GB ", 15.2, "N", 0], ["08-21", "JURASSIC JIM SHANKLIN, GB APPL", 33.0, "N", 0], ["08-22", "Sand Shop Alum Bay GB APPLEPAY", 12.0, "N", 0], ["08-22", "Sand Shop Alum Bay GB APPLEPAY", 20.0, "N", 0], ["08-25", "CLR*WWW.THEBUSHCRAFTS ENFIELD ", 18.85, "N", 0], ["08-28", "AMZNMktplace*R41BC06Y4 amazon.", 6.99, "N", 0], ["08-28", "AMZNMktplace*R45471QC4 amazon.", 17.59, "N", 0], ["08-29", "AMZNMktplace*R47A72UJ4 amazon.", 16.88, "N", 0], ["08-29", "AMZNMktplace*R49AV6U84 amazon.", 47.76, "N", 0], ["08-30", "AMZNMktplace amazon.co.uk GB", -17.59, "N", 0], ["08-04", "TINA HADDAD", 45.0, "N", 0]],
+    "Hobby": [["08-31", "WHATNOT                 PENROS", 6.69, "A", 0], ["08-31", "WHATNOT                 PENROS", 7.0, "A", 0], ["08-31", "WHATNOT                 PENROS", 36.0, "A", 0], ["08-31", "WHATNOT                 PENROS", 50.0, "A", 0], ["08-30", "WHATNOT                 MARINA", -17.14, "A", 0], ["08-30", "WHATNOT                 PENROS", 12.0, "A", 0], ["08-30", "WHATNOT                 PENROS", 14.7, "A", 0], ["08-30", "WHATNOT                 PENROS", 44.0, "A", 0], ["08-30", "WHATNOT                 PENROS", 143.39, "A", 0], ["08-30", "WHATNOT                 PENROS", 540.0, "A", 0], ["08-30", "WHATNOT                 PENROS", 655.0, "A", 0], ["08-28", "WHATNOT                 MARINA", 103.1, "A", 0], ["08-28", "WHATNOT                 MARINA", 175.01, "A", 0], ["08-22", "WHATNOT                 MARINA", 275.08, "A", 0], ["08-16", "WHATNOT                 MARINA", 266.9, "A", 0], ["08-16", "WHATNOT                 MARINA", 558.98, "A", 0], ["08-10", "WHATNOT                 MARINA", 172.7, "A", 0], ["08-09", "WHATNOT                 MARINA", 241.83, "A", 0], ["08-09", "WHATNOT                 MARINA", 278.64, "A", 0], ["08-09", "WHATNOT                 MARINA", 315.46, "A", 0], ["08-09", "WHATNOT                 MARINA", 629.53, "A", 0]],
     "Tech supplies and subscriptions": [["08-29", "CURRYS CURRYS           UNITED", 299.0, "A", 1], ["08-28", "APPLE.COM/BILL          HOLLYH", 6.99, "A", 0], ["08-26", "APPLE.COM/BILL          HOLLYH", 9.99, "A", 0], ["08-20", "APPLE.COM/BILL          HOLLYH", 17.99, "A", 0], ["08-20", "APPLE.COM/BILL          HOLLYH", 79.99, "A", 0], ["08-18", "APPLE.COM/BILL          HOLLYH", 0.99, "A", 0], ["08-13", "APPLE.COM/BILL          HOLLYH", 2.99, "A", 0], ["08-06", "APPLE.COM/BILL          HOLLYH", 25.99, "A", 0], ["08-03", "PAYPAL *NETFLIX         402935", 18.99, "A", 0], ["08-01", "E.F.S. LTD.", 97.79, "N", 0], ["08-22", "GOOGLE *Google One g.co/helppa", 1.59, "N", 1]],
     "Memberships and Subscriptions": [["08-28", "PAYPAL *WIKIPEDIA       415839", 2.0, "A", 0], ["08-26", "POSITIVE NEWS           MANCHE", 5.0, "A", 1], ["08-01", "CHARTERED SOCIETY", 37.99, "N", 0], ["08-08", "LIFESTYLE FITNESS", 43.0, "N", 0]],
     "Going out/Entertaining": [["08-28", "THORPE LAKES            LONDON", 160.0, "A", 0], ["08-27", "DOJO*THE INN AT WEST EN WOKING", 57.2, "A", 0], ["08-18", "GRIFFIN GODSHILL        IOW", 67.1, "A", 0], ["08-16", "DOJO*THE INN AT WEST EN WOKING", 45.16, "A", 0], ["08-13", "MCDONALDS RESTAURANTS L BUCKIN", 15.0, "A", 0], ["08-11", "SPORTS SOCCER           WOKING", 70.98, "A", 0], ["08-08", "VUE ENTERTAINMENT LTD   LONDON", 29.96, "A", 0], ["08-05", "THORPE PARK             CHERTS", 129.0, "A", 0], ["08-02", "DOJO*SMITH AND WESTERN  CRAWLE", 77.82, "A", 0], ["08-02", "GO APE                  FORNHA", 85.85, "A", 0], ["08-01", "3CPAYMENT*STARBUCKS 129 REIGAT", 4.55, "A", 1], ["08-01", "CORAL REEF BRACKNELL GB APPLEP", 2.0, "N", 0], ["08-01", "ZETTLE_*SECRET CAMPING HAYWARD", 5.0, "N", 0], ["08-02", "BRIGHTON MARINE PALACE & BRIGH", 2.0, "N", 0], ["08-02", "Zettle_*SECRET CAMPING CL Hayw", 2.5, "N", 0], ["08-02", "BRIGHTON MARINE PALACE BRIGHTO", 2.8, "N", 0], ["08-02", "BRIGHTON MARINE PALACE & BRIGH", 4.0, "N", 0], ["08-02", "BHCC-PAYBYPHONEPARKING 1S BRIG", 6.5, "N", 0], ["08-02", "MARKS&SPENCER PLC GUILDFORD GB", 8.0, "N", 0], ["08-02", "NYA*Brighton Palace Pi 0127360", 20.0, "N", 0], ["08-02", "BRIGHTON MARINE PALACE & BRIGH", 40.0, "N", 0], ["08-02", "White Hart, Chipstead Coulsdon", 62.32, "N", 0], ["08-04", "BP LIGHTWATER SERVICE STA LIGH", 5.6, "N", 0], ["08-04", "CAFFE NERO HT 2 ARRIVALS HUNSL", 9.65, "N", 0], ["08-04", "ZETTLE_*SECRET CAMPING HAYWARD", 31.0, "N", 0], ["08-05", "RED GREEN WOKING GB APPLEPAY 3", 2.2, "N", 1], ["08-05", "SumUp *Brownies.by.ab Woking G", 3.7, "N", 0], ["08-09", "PAYPAL *BIRDWORLD 0142022140 G", 57.85, "N", 0], ["08-09", "TWO RIVERS RETAIL PARK STAINES", 1.3, "N", 0], ["08-09", "BIRDWORLD FARNHAM GB APPLEPAY ", 6.1, "N", 0], ["08-09", "BIRDWORLD FARNHAM GB APPLEPAY ", 9.3, "N", 0], ["08-09", "Vue Cinemas Staines GB APPLEPA", 15.99, "N", 0], ["08-09", "NANDOS.CO.UK LONDON GB", 66.2, "N", 0], ["08-11", "CRV*THORPE PARK DOME C CRV* GB", 5.0, "N", 0], ["08-11", "BURGER KING THORPE PARK 1 GB A", 6.38, "N", 0], ["08-11", "CRV*KFC THORPE PARK ST CRV* GB", 11.98, "N", 0], ["08-11", "KFC - THORPE PARK STAINES GB A", 13.26, "N", 0], ["08-12", "RED GREEN WOKING GB APPLEPAY 3", 3.5, "N", 1], ["08-13", "THE PHOENIX COMIC", 29.99, "N", 0], ["08-13", "GUILDFORD SPECTRUM CENTRE WWW.", 17.86, "N", 0], ["08-13", "COOK Sittingbourne GB APPLEPAY", 33.4, "N", 0], ["08-14", "MCDONALDS 1358 LONDON GB APPLE", 1.89, "N", 0], ["08-14", "KFC BEACONSFIELD BEACONSFIELD ", 9.49, "N", 0], ["08-14", "CHOZEN NOODLE BEACONSFIEL BEAC", 11.08, "N", 0], ["08-16", "BURRITO LOCO GUILDFORD GU1 GB ", 7.5, "N", 0], ["08-16", "MS* DONNINGTONMANORHO SEVENOAK", 33.0, "N", 0], ["08-18", "Thorpe Park GB GB", 12.0, "N", 0], ["08-19", "Isle of Wight Donkey Sanc Vent", 2.5, "N", 0], ["08-19", "Isle of Wight Donkey Sanc Vent", 2.5, "N", 0], ["08-19", "CAMBER CAFE PORTSMOUTH GB APPL", 12.8, "N", 1], ["08-19", "Isle of Wight Donkey Sanc Vent", 13.0, "N", 0], ["08-19", "ISLE OF WIGHT DONKEY SANC VENT", 20.0, "N", 0], ["08-20", "Blackgang Chine Blackgang GB A", 3.0, "N", 0], ["08-20", "PAYBYPHONE RE ISLE OF WIG HATF", 3.7, "N", 0], ["08-20", "Blackgang Chine Blackgang GB A", 6.0, "N", 0], ["08-20", "Blackgang Chine Blackgang GB A", 7.95, "N", 0], ["08-20", "Blackgang Chine Blackgang GB A", 17.95, "N", 0], ["08-20", "Blackgang Chine Blackgang GB A", 20.95, "N", 0], ["08-21", "PAYBYPHONE RE ISLE OF WIG HATF", 3.7, "N", 0], ["08-21", "PAYBYPHONE RE ISLE OF WIG HATF", 4.2, "N", 0], ["08-21", "THE FISHERMANS COTTAGE ISLE OF", 12.0, "N", 0], ["08-21", "THE SPYGLASS INN VENTNOR GB AP", 108.05, "N", 0], ["08-22", "PAYBYPHONE RE ISLE OF WIG HATF", 1.3, "N", 0], ["08-22", "sweets Alum Bay GB APPLEPAY 38", 3.5, "N", 0], ["08-22", "sweets Alum Bay GB APPLEPAY 79", 5.3, "N", 0], ["08-22", "Car Park Alum Bay GB APPLEPAY ", 6.0, "N", 0], ["08-22", "Bar Alum Bay GB APPLEPAY 7919", 10.0, "N", 0], ["08-22", "SUMUP *TWISTED PIZZA SANDOWN G", 22.5, "N", 0], ["08-22", "SUMUP *BANGIN BURGERS SANDOWN ", 24.5, "N", 0], ["08-22", "SQ *SANDOWN BOULEVARD Sandown ", 25.75, "N", 0], ["08-22", "Visitor Centre Alum Bay GB APP", 48.0, "N", 0], ["08-22", "NEEDLES PLEASURE CRUISE TOTLAN", 135.0, "N", 0], ["08-23", "BOARDWALK CAFE SANDOWN GB APPL", 2.4, "N", 0], ["08-23", "PAYBYPHONE RE ISLE OF WIG HATF", 6.3, "N", 0], ["08-23", "SUMUP *BANGIN BURGERS SANDOWN ", 8.0, "N", 0], ["08-23", "SUMUP *WIGHT COAST LTD RYDE GB", 10.0, "N", 0], ["08-23", "SUMUP *BANGIN BURGERS SANDOWN ", 18.0, "N", 0], ["08-25", "Blackgang Chine Blackgang GB A", 2.0, "N", 0], ["08-25", "Blackgang Chine Blackgang GB A", 3.25, "N", 0], ["08-25", "ZETTLE_*SEASIDE CAFE SANDOWN G", 3.5, "N", 0], ["08-25", "Blackgang Chine Blackgang GB A", 5.0, "N", 0], ["08-25", "PAYBYPHONE RE ISLE OF WIG HATF", 6.25, "N", 0], ["08-25", "Blackgang Chine Blackgang GB A", 13.5, "N", 0], ["08-25", "NEXT WWW2.NEXT.CO. GB APPLEPAY", 121.95, "N", 0], ["08-25", "THE RED DUSTER COWES GB APPLEP", 126.1, "N", 0], ["08-25", "HAYDENS OAKFIELD ISLE GB APPLE", 5.8, "N", 0], ["08-25", "Baywatch On The Beach Ryde GB ", 10.4, "N", 0], ["08-25", "The Kebab House https://www.t ", 18.9, "N", 0], ["08-25", "Baywatch On The Beach Ryde GB ", 66.55, "N", 0], ["08-26", "HAYDENS CHIP SHOP RYDE GB APPL", 63.3, "N", 0], ["08-26", "ST CLARE DECK 4 - 2 PORTSMOUTH", 4.2, "N", 0], ["08-28", "CO OP GROUP FOOD CAMBERLEY GB ", 5.4, "N", 0], ["08-28", "CO OP GROUP FOOD CAMBERLEY GB ", 8.55, "N", 0], ["08-29", "CRV*Blackgang Chine Bl CRV* GB", 2.0, "N", 0], ["08-29", "CRV*Blackgang Chine Bl CRV* GB", 5.25, "N", 0], ["08-29", "CRV*ST CLARE DECK 4 PO CRV* GB", 7.0, "N", 0], ["08-29", "CRV*SumUp *Twisted Piz CRV* GB", 22.0, "N", 0], ["08-29", "CRV*The Ocean Deck San CRV* GB", 121.8, "N", 0], ["08-30", "HEARTWOOD INNS ONLINE CHOBHAM ", 1.25, "N", 0], ["08-30", "CO OP GROUP FOOD CAMBERLEY GB ", 2.2, "N", 0], ["08-30", "SUMUP *CHAPS MCT4VS3H SURREY G", 20.0, "N", 0]],
@@ -2707,7 +2711,8 @@ const CP = {
   "2026-04": {
     "Land Purchase": 25000,
     "Sequoia DLA Return": -23000
-  },
+  ,
+    "Cash Injection Required": 957.18},
   "2026-07": {
     "HMRC Tax": 3000
   },
@@ -2715,7 +2720,28 @@ const CP = {
     "Morpho Loan Drawdown": 10730.0,
     "Goal Vision Loan": -5000.0
 }
-};
+,
+  "2026-05": {
+    "Cash Injection Required": 5476
+  },
+  "2026-06": {
+    "Cash Injection Required": 1288
+  },
+  "2026-08": {
+    "Cash Injection Required": 1576
+  },
+  "2026-09": {
+    "Cash Injection Required": 9288
+  },
+  "2026-10": {
+    "Cash Injection Required": 1288
+  },
+  "2026-11": {
+    "Cash Injection Required": 3788
+  },
+  "2026-12": {
+    "Cash Injection Required": 1288
+  }};
 const CD = {
   "2025-02": [["02-15", "HMRC Self Assessment Shipley v", 34578.16, "HMRC Tax"], ["02-05", "JONATHAN GODDEN", -25000.0, "Godden Loan"], ["02-06", "JONATHAN GODDEN", -10000.0, "Godden Loan"]],
   "2025-04": [["04-07", "HMRC GOV.UK SA GLASGOW GB", 1367.95, "HMRC Tax"], ["04-22", "HMRC GOV.UK SA GLASGOW GB", 67.0, "HMRC Tax"]],
@@ -2740,7 +2766,7 @@ const EG = {
   "Tech & Memberships": ["Memberships and Subscriptions", "Tech supplies and subscriptions", "Telephone & Internet", "Subscriptions"],
   "Travel & Motor": ["Motor Vehicle Expenses", "Travel - National"],
   "School & Education": ["School & Education Costs"],
-  "Other": ["Cash Withdrawn", "Charitable Donations", "Go Henry - Kids Card Top up", "Computer Equipment"]
+  "Other": ["Cash Withdrawn", "Charitable Donations", "Go Henry - Kids Card Top up", "Computer Equipment", "Hobby"]
 };
 // === END DATA INJECTION ===
 

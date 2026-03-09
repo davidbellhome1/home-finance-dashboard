@@ -190,23 +190,26 @@ const MS = [{
 }, {
   "month": "2026-02",
   "label": "Feb 26",
-  "income": 10971.12,
-  "expenses": 12904.3,
+  "income": 11264.12,
+  "expenses": 13197.3,
   "hhSurplus": -1933.18,
   "capNet": 5730.0,
   "forecast": false,
   "opening": 6842,
   "closing": 10638.82,
   "cashMove": 3796.82,
-  "lumpy": [{
-    "cat": "Morpho Loan Drawdown",
-    "amount": 10730.0,
-    "type": "capital"
-  }, {
-    "cat": "Goal Vision Loan",
-    "amount": -5000.0,
-    "type": "capital"
-  }]
+  "lumpy": [
+    {
+      "cat": "Morpho Loan Drawdown",
+      "amount": 10730.0,
+      "type": "capital"
+    },
+    {
+      "cat": "Goal Vision Loan",
+      "amount": -5000.0,
+      "type": "capital"
+    }
+  ]
 }, {
   "month": "2026-03",
   "label": "Mar 26",
@@ -2709,9 +2712,9 @@ const CP = {
     "HMRC Tax": 3000
   },
   "2026-02": {
-    "OurStories DLA": 10000,
-    "Ian Loan Return": -20000
-  }
+    "Morpho Loan Drawdown": 10730.0,
+    "Goal Vision Loan": -5000.0
+}
 };
 const CD = {
   "2025-02": [["02-15", "HMRC Self Assessment Shipley v", 34578.16, "HMRC Tax"], ["02-05", "JONATHAN GODDEN", -25000.0, "Godden Loan"], ["02-06", "JONATHAN GODDEN", -10000.0, "Godden Loan"]],
@@ -4006,7 +4009,7 @@ function Dashboard() {
       color: C.muted,
       textAlign: "center"
     }
-  }, "Generated 9 Feb 2026 (v8) | ", actuals.length, " actual months | ", forecasts.length, " forecast months | * = lumpy items"));
+  }, "Generated 9 Mar 2026 (v9) | ", actuals.length, " actual months | ", forecasts.length, " forecast months | * = lumpy items"));
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(React.createElement(Dashboard));</script>
